@@ -1,0 +1,9 @@
+# Web Scraping & Data Storage
+
+- Scraped data using Python (BeautifulSoup)
+- Generated structured datasets (products, categories, etc.)
+- Designed a relational database using SQL
+
+## Database Design
+The database schema is available here:
+👉 ../sql/schema.sql

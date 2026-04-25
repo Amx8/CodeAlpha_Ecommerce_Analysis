@@ -1,0 +1,109 @@
+ Exploratory Data Analysis (EDA)
+
+ Overview
+This analysis explores an e-commerce dataset containing information about:
+- Products
+- Customers
+- Orders
+- Order Items
+- Reviews
+
+The goal is to understand business performance, customer behavior, and sales patterns.
+
+
+
+ Dataset Structure
+
+The dataset includes the following tables:
+
+- Products: Product details such as price, category, and rating  
+- Customers: Customer demographics and location  
+- Orders: Order transactions and total amounts  
+- Order Items: Product-level breakdown of each order  
+- Reviews: Customer feedback and ratings  
+
+
+
+ Key Questions
+
+During the analysis, the following questions were explored:
+
+- What are the top-selling products?
+- Which categories generate the highest revenue?
+- How does customer behavior vary across locations?
+- What is the trend of sales over time?
+- Is there a relationship between product ratings and sales?
+
+
+
+ Key Metrics
+
+The main KPIs used in the analysis:
+
+- Total Revenue  
+- Number of Orders  
+- Number of Customers  
+- Average Order Value  
+- Product Ratings  
+
+
+
+ Insights
+
+ 1️ Revenue Distribution
+- A small number of products contribute to a large portion of total revenue.
+- Indicates a Pareto effect (80/20 rule).
+
+
+
+ 2️ Product Performance
+- Highly rated products tend to have more sales.
+- Suggests that customer satisfaction impacts demand.
+
+
+
+ 3️ Sales Trends
+- Sales show variation over time.
+- Certain periods have higher activity, indicating possible seasonality.
+
+
+
+ 4️ Customer Behavior
+- Customers from specific regions contribute more to total sales.
+- Repeat customers may drive consistent revenue.
+
+
+
+ 5️ Order Patterns
+- Most orders contain a small number of items.
+- Large orders are less frequent but contribute significantly to revenue.
+
+
+
+  Data Issues Identified
+
+- Some missing values in product descriptions  
+- Synthetic data for customers and orders (generated for analysis)  
+- Potential imbalance in review distribution  
+
+
+
+  Conclusion
+
+The analysis highlights key business drivers such as:
+- Product quality (ratings)
+- High-performing categories
+- Customer purchasing behavior
+
+These insights can help improve:
+- Marketing strategies  
+- Product recommendations  
+- Customer targeting  
+
+
+
+  Tools Used
+
+- Python (Pandas, NumPy)  
+- Power BI  
+- SQL  
